@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a **prompt-engineering repository**, not a software project. There is no build system, no tests, no linting, and no application code. The entire deliverable is a single document:
 
-- `book2lecture.md` — a large Japanese-language LLM prompt (「独学用・書籍解説講義シリーズ生成プロンプト」, currently **Ver.7.9**) that instructs an AI to turn an uploaded book into a multi-part interactive lecture series for self-learners.
+- `book2lecture.md` — a large Japanese-language LLM prompt (「独学用・書籍解説講義シリーズ生成プロンプト」, currently **Ver.7.10**) that instructs an AI to turn an uploaded book into a multi-part interactive lecture series for self-learners.
 
 All work here consists of editing, refining, and versioning that prompt.
 
@@ -35,6 +35,6 @@ These constraints are load-bearing and are deliberately repeated throughout the 
 
 ## Development workflow
 
-- The document is versioned via the title line (`Ver.7.9`). A substantive change to the prompt's behavior should bump this version number.
+- The document is versioned via the title line (`Ver.7.10`). A substantive change to the prompt's behavior should bump this version number.
 - Git history uses simple `Update book2lecture.md` commit messages on `main`; there is no branching convention beyond that.
 - The prompt's language is Japanese; edits to prompt content should be written in Japanese matching the existing register (polite/formal instructions to the AI, with emphatic bold markers for critical rules).
